@@ -1,5 +1,7 @@
 ##OPEN API STUFF
-OPENAI_API_KEY = ''
+import os 
+
+OPENAI_API_KEY =  os.getenv('OPENAI_API_KEY')
 
 
 
@@ -9,7 +11,7 @@ class Config(object):
     TESTING = False
 
 class DevelopmentConfig(Config):
-    SECRET_KEY = ""
+    SECRET_KEY = os.getenv('SECRET_KEY')
 
 
 config = {
