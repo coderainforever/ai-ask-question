@@ -23,5 +23,4 @@ def index():
     return render_template('index.html', **locals())
 
 if __name__ == '__main__':
-    app.debug=False # make it false during production
-    app.run()
+    app.run(host='0.0.0.0', port='8888', debug=True)
