@@ -1,5 +1,8 @@
-# AI Blog Writer with OpenAI GPT-3
+# AI Answers: Ask Questions or Enter A Blog Title
+
+AI Blog Writer with OpenAI GPT-3
 Create an AI blog writing tool with Open AI API. 
+Ask questions or enter a blog title and let AI write for you!
 
 # Get Started with this repo
 Create your OpenAI API key and add it to the config.py file
@@ -20,3 +23,5 @@ Run the program
 ```sh
 python app.py
 ```
+
+🔗 Deployed Model: http://ai-answers.herokuapp.com/
