@@ -24,4 +24,4 @@ Run the program
 python app.py
 ```
 
-🔗 Deployed Model: http://ai-answers.herokuapp.com/
+🔗 Deployed Model: https://veena-gpt.up.railway.app/
